@@ -8,10 +8,10 @@
 
 @section('content')
     <ul id="myTab" class="nav nav-tabs bar_tabs">
-        <li class="active">
+        <li>
             <a href="{{ url('admin/chat/index') }}">随言碎语列表</a>
         </li>
-        <li>
+        <li class="active">
             <a href="{{ url('admin/chat/create') }}">添加随言碎语</a>
         </li>
     </ul>
